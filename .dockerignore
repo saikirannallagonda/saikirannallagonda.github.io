@@ -1,0 +1,41 @@
+# Node modules directory
+node_modules
+
+# Build artifacts
+build
+
+# Log files
+npm-debug.log
+*.log
+
+# Docker and Git related files
+Dockerfile
+.dockerignore
+.git
+.gitignore
+
+# Environment variable files
+.env
+.env.local
+.env.development
+
+# Test files and directories
+__tests__/
+*.test.js
+*.spec.js
+
+# Coverage reports
+coverage/
+
+# IDE and editor configuration files
+.vscode/
+.idea/
+.DS_Store
+
+# Temporary files
+tmp/
+*.tmp
+
+# Miscellaneous files that are not needed in production
+README.md
+
