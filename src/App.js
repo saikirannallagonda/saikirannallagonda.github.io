@@ -1,18 +1,19 @@
+import { Link, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Home from './components/Home/Home';
+import NavigateToCLI from './components/CLI/NavigateToCLI';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-            Not Quite Ready Yet, But Almost There! :)
-        </p>
-        {/*
-        <a className="App-link" href="https://saikirannallagonda.github.io" rel="noopener noreferrer">
-            home
-        </a>
-        */}
-      </header>
+    <div>
+      <nav>
+        <Link to="/"></Link>
+        <Link to="/cli"></Link>
+      </nav>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/cli" element={<NavigateToCLI/>} />
+      </Routes>
     </div>
   );
 }

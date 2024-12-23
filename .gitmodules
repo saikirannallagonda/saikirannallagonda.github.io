@@ -1,0 +1,3 @@
+[submodule "public/cli"]
+	path = public/cli
+	url = git@github.com:saikirannallagonda/saikirannallagonda-cli.git
