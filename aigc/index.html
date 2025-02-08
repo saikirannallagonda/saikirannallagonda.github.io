@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Grammer Check</title>
+    <link rel="icon" href="./resources/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./resources/css/index.css">
+</head>
+
+<body class="no-js">
+    <noscript>Your browser does not support JavaScript or it is disabled. Please enable JavaScript for the best experience.</noscript>
+    <header>Check grammar using AI ✨</header>
+    <br><br>
+    <label for="input-sentence"></label>
+    <textarea rows="5" cols="33" id="input-sentence" name="input-sentence" placeholder="Enter here..."></textarea>
+    <br>
+    <button type="submit" id="paste-button">Paste</button>
+    <button type="reset" id="clear-button">Clear</button>
+    <br><br>
+    <div id="response-div">
+        <p id="corrected-sentence">Please provide the sentence that you would like me to rewrite in formal English.</p>
+        <button id="copy-button" style="display: none;">
+            <span id="copy-message">Copy</span>
+        </button>
+    </div>
+    <br><br>
+    <footer>Powered by <a href="https://github.com/HeyPuter/puter" target="_blank">Puter</a>✅</footer>
+    <script type="text/javascript" src="https://js.puter.com/v2/"></script>
+    <script type="text/javascript" src="./resources/js/index.js"></script>
+</body>
+
+</html>

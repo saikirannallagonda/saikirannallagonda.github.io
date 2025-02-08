@@ -1,0 +1,39 @@
+body {
+    font-family: monospace;
+    color: #000;
+    background-color: #c0dcc0;
+    margin: 0;
+    padding: 1rem;
+    font-size: large;
+}
+
+/* .no-js > *:not(noscript) {
+    display: none !important;
+} */
+
+noscript {
+    color: #c00;
+}
+
+header,
+footer {
+    background-color: black;
+    color: white;
+    border: black solid thick;
+    border-radius: 7px;
+    padding: 1px 9px;
+    display: inline-block;
+}
+
+a {
+    color: white;
+}
+
+#input-sentence {
+    padding: 1rem;
+}
+
+#response-div {
+    border: #000 dashed thin;
+    padding: 1rem;
+}
