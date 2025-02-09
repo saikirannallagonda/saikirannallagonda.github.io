@@ -1,3 +1,6 @@
 [submodule "public/cli"]
 	path = public/cli
 	url = git@github.com:saikirannallagonda/saikirannallagonda-cli.git
+[submodule "public/aigc"]
+	path = public/aigc
+	url = git@github.com:saikirannallagonda/ai-grammar-check.git
